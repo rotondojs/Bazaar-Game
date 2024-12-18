@@ -1,3 +1,0 @@
-[["bob","purchase-size","request-cards"],["jhon","purchase-size"]]
-[[["yellow"],["red","red","red","blue"]],[["green","green","green"],["blue","red","yellow","yellow"]],[["blue","blue"],["yellow","yellow","yellow","yellow"]],[["green","white"],["blue","blue","blue"]]]
-{"bank": ["blue", "blue", "yellow", "yellow", "yellow", "green", "white"], "visibles": [{"pebbles": ["green", "green", "blue", "blue", "blue"], "face?": false}, {"pebbles": ["green", "blue", "red", "red", "white"], "face?": true}, {"pebbles": ["yellow", "white", "white", "red", "green"], "face?": true}], "cards": [], "players": [{"wallet": ["red", "white", "green", "green", "blue", "blue", "yellow"], "score": 9}, {"wallet": ["green", "white", "white", "yellow", "yellow", "red", "red"], "score": 3}]}

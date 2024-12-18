@@ -1,3 +1,0 @@
-[["Jack","purchase-points", "a cheat", "bank-cannot-trade"],["Jill","purchase-size", "request-pebble-or-trades"],["Jeff","purchase-size", "setup"]]
-[[["green","green","green"],["blue"]]]
-{"bank":["green","green","green"],"cards":[],"players":[{"score":8,"wallet":["green","green","blue"]},{"score":5,"wallet":["green","green","green"]},{"score":6,"wallet":["red"]}],"visibles":[{"face?":false,"pebbles":["green","green","green","green","green"]}, {"face?":true,"pebbles":["white","white","white","white","white"]}]}

@@ -1,3 +1,0 @@
-[["James", "purchase-size"], ["Amy", "purchase-points", "a cheat", "buy-unavailable-card"]]
-[[["red", "red"], ["blue", "green", "green"]], [["yellow"], ["green"]]]
-{"bank":["red", "red", "red", "red", "blue", "green", "green", "green"],"cards":[],"players":[{"score":14,"wallet":["blue", "green", "green", "yellow", "yellow", "yellow", "green", "green"]}, {"score":14,"wallet":["white", "white"]}],"visibles":[{"face?":true,"pebbles":["blue", "green", "yellow", "green", "white"]}, {"face?":false,"pebbles":["red", "red", "yellow", "yellow", "yellow"]}, {"face?":false,"pebbles":["green", "green", "yellow", "yellow", "yellow"]}]}

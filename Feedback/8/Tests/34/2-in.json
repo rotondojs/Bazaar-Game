@@ -1,3 +1,0 @@
-[["Alex", "purchase-points", "request-pebble-or-trades"]]
-[]
-{"bank": ["yellow"], "visibles": [{"pebbles": ["white", "white", "yellow", "yellow", "red"], "face?": false}, {"pebbles": ["green", "yellow", "red", "red", "green"], "face?": false}, {"pebbles": ["blue", "blue", "red", "green", "red"], "face?": false}, {"pebbles": ["yellow", "red", "red", "white", "blue"], "face?": true}], "cards": [{"pebbles": ["yellow", "white", "yellow", "green", "green"], "face?": true}, {"pebbles": ["yellow", "yellow", "red", "yellow", "red"], "face?": true}], "players": [{"wallet": ["green", "white", "white"], "score": 2}]}

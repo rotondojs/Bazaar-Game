@@ -1,3 +1,0 @@
-[["Susanne","purchase-size","request-cards",2],["Adam","purchase-points"],["Eve","purchase-size"]]
-[[["green","green","green"],["blue"]],[["red"],["blue","blue","blue","blue"]],[["red"],["green","green","green","green"]]]
-{"bank":["red","red","blue","red","red"],"cards":[],"players":[{"score":0,"wallet":["green","green","green","green","green"]},{"score":0,"wallet":["red","green","blue","red","green"]},{"score":0,"wallet":["white","yellow","red","blue","blue"]}],"visibles":[{"face?":false,"pebbles":["white","yellow","red","blue","blue"]},{"face?":false,"pebbles":["green","green","green","green","green"]}]}
