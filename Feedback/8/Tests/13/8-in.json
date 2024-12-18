@@ -1,0 +1,16 @@
+[
+    ["firstPlayer", "purchase-points"],
+    ["secondPlayer", "purchase-size", "request-cards"],
+    ["thirdPlayer", "purchase-size", "a cheat", "wallet-cannot-trade"]
+]
+  [[["red", "blue", "blue", "blue"], ["green"]],
+   [["red"], ["blue"]]]
+  {"bank": ["red", "blue"],
+   "visibles": [{"pebbles": ["red", "blue", "blue", "white", "red"], "face?": true},
+                {"pebbles": ["red", "white", "blue", "white", "red"], "face?": true},
+                {"pebbles": ["red", "green", "blue", "white", "red"], "face?": true},
+                {"pebbles": ["red", "yellow", "blue", "white", "red"], "face?": true}],
+   "cards": [{"pebbles": ["red", "red", "blue", "white", "red"], "face?": true}],
+   "players": [{"wallet": ["red", "blue", "blue", "white", "red"], "score": 19},
+               {"wallet": ["red", "red", "blue", "white", "red"], "score": 19},
+               {"wallet": ["red", "red", "blue", "white", "red"], "score": 18}]}

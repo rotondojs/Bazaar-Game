@@ -1,0 +1,3 @@
+[["Madeline", "purchase-size", "a cheat", "use-non-existent-equation"], ["Amy", "purchase-points"]]
+[[["yellow"], ["green"]]]
+{"bank":["red", "red", "red", "red", "blue", "green", "green", "green", "yellow"],"cards":[],"players":[{"score":13,"wallet":["blue", "green", "green", "yellow", "yellow", "yellow", "green", "green", "white"]}, {"score":10,"wallet":["yellow", "yellow", "green", "red", "red"]}],"visibles":[{"face?":true,"pebbles":["blue", "green", "green", "green", "white"]}, {"face?":false,"pebbles":["red", "red", "yellow", "yellow", "yellow"]}]}

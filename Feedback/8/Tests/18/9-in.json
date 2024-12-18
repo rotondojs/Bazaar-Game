@@ -1,0 +1,40 @@
+[["Jack", "purchase-points", "a cheat", "use-non-existent-equation"],
+  ["Willem", "purchase-points", "win"]]
+[[["green"],["red"]],[["red"],["white"]]]
+{
+  "bank": ["red", "blue", "green", "white", "yellow"],
+  "visibles": [
+    {
+      "pebbles":["red", "blue", "green", "white", "yellow"],
+      "face?": false
+    },
+    {
+      "pebbles":["red", "blue", "green", "white", "yellow"],
+      "face?": false
+    },
+    {
+      "pebbles":["red", "blue", "green", "white", "yellow"],
+      "face?": false
+    },
+    {
+      "pebbles":["red", "blue", "green", "white", "yellow"],
+      "face?": false
+    }
+  ],
+  "cards": [
+    {
+      "pebbles":["red", "blue", "green", "white", "yellow"],
+      "face?": false
+    }
+  ],
+  "players": [
+    {
+      "wallet": ["red", "blue", "green", "white", "yellow"],
+      "score": 0
+    },
+    {
+      "wallet": ["red", "blue", "green", "white", "yellow"],
+      "score": 0
+    }
+  ]
+}

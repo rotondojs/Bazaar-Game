@@ -1,0 +1,20 @@
+[
+    ["Charlie", "purchase-points"],
+    ["Bob", "purchase-size"],
+    ["Alice", "purchase-points"]
+]
+  
+[
+    [["red", "red", "white", "blue"], ["yellow"]]
+]
+  
+{
+    "bank": ["red", "red", "red", "red", "red", "blue", "blue", "green"],
+    "visibles": [],
+    "cards": [],
+    "players": [
+        { "wallet": ["white", "yellow", "yellow"], "score": 3 },
+        { "wallet": ["white"], "score": 4 },
+        { "wallet": ["red", "blue"], "score": 2 }
+    ]
+}

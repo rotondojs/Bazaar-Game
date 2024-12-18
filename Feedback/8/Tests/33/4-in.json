@@ -1,0 +1,33 @@
+[
+    ["antiauthoritarianism", "purchase-points", "a cheat", "wallet-cannot-buy-card"],
+    ["authoritarianism", "purchase-size"]
+]
+[
+]
+{
+    "bank": [
+        "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow",
+        "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow",
+        "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow",
+        "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow",
+        "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow"
+    ],
+    "visibles": [
+        {"face?": true, "pebbles": ["white", "white", "white", "blue", "blue"]},
+        {"face?": true, "pebbles": ["red", "red", "red", "red", "red"]},
+        {"face?": true, "pebbles": ["red", "yellow", "yellow", "yellow", "yellow"]},
+        {"face?": true, "pebbles": ["green", "green", "green", "green", "green"]}
+    ],
+    "cards": [
+        {"face?": true, "pebbles": ["blue", "blue", "blue", "blue", "blue"]}
+    ],
+    "players": [
+        {"score": 10, "wallet": [
+            "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow",
+            "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow",
+            "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow",
+            "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow"
+        ]},
+        {"score": 10, "wallet": []}
+    ]
+}

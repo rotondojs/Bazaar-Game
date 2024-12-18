@@ -1,0 +1,3 @@
+[["Zeina","purchase-points","setup"],["Yolanda","purchase-points","request-pebble-or-trades"],["Adam","purchase-points"]]
+[[["green","green","blue"],["red","white"]]]
+{"bank":["red","red","blue","red","red"],"cards":[],"players":[{"score":0,"wallet":["green","green","green","green","green"], "cards": []},{"score":0,"wallet":["red","green","blue","red","green"], "cards": []},{"score":0,"wallet":["white","yellow","red","blue","blue"], "cards": []}],"visibles":[{"face?":false,"pebbles":["white","yellow","red","blue","blue"]},{"face?":false,"pebbles":["green","green","green","green","green"]}]}

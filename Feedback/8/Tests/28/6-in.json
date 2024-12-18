@@ -1,0 +1,20 @@
+[["AI2", "purchase-points", "a cheat", "wallet-cannot-buy-card"],
+  ["AI1", "purchase-points"]]
+[]
+{"bank": [],
+  "visibles":[
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true}],
+  "cards":[
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true},
+    {"pebbles":["blue", "blue", "blue", "blue", "blue"],"face?":true}],
+  "players":[
+    {"wallet":["red"],"score":0},
+    {"wallet":["blue", "blue", "blue", "blue", "blue"],"score":19}]}

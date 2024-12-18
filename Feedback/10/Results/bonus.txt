@@ -1,0 +1,309 @@
+(testing /home/camoy/24SwDev/Code/10/xclients-bonus /course/cs4500f24/tas/camoy/repos/amazing-squirrels/./10/xserver)
+(testing /home/camoy/24SwDev/Code/10/Tests7/0-in.json /home/camoy/24SwDev/Code/10/Tests7/0-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("goodie0" "purchase-size")
+   ("goodie1" "purchase-size")
+   ("goodie2" "purchase-size"))
+  ("AAdivergeBeforeSending")
+  ((("green" "green" "blue") ("red" "white")))
+  #hasheq((bank . ("red" "red" "blue" "red" "red"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("green" "green" "green" "green" "green")))
+            #hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("red" "green" "blue" "red" "green")))
+            #hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("white" "yellow" "red" "blue" "blue")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("white" "yellow" "red" "blue" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))))
+(*** expected)
+'((("goodie0") ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/10/Tests7/1-in.json /home/camoy/24SwDev/Code/10/Tests7/1-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("goodie0" "purchase-size") ("goodie1" "purchase-size"))
+  ("AAsendnameloop")
+  ((("green" "green" "blue") ("red" "white")))
+  #hasheq((bank . ("red" "red" "blue" "red" "red"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("green" "green" "green" "green" "green")))
+            #hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("red" "green" "blue" "red" "green")))
+            #hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("white" "yellow" "red" "blue" "blue")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("white" "yellow" "red" "blue" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))))
+(*** expected)
+'((("goodie0") ("AAsendnameloop")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/10/Tests7/2-in.json /home/camoy/24SwDev/Code/10/Tests7/2-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("goodie0" "purchase-size")
+   ("goodie1" "purchase-size")
+   ("goodie2" "purchase-size")
+   ("ouch ouch" "purchase-size")
+   ("ouchouchouchouchouchouchouchouch" "purchase-size"))
+  ()
+  ((("green" "green" "blue") ("red" "white")))
+  #hasheq((bank . ("red" "red" "blue" "red" "red"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("green" "green" "green" "green" "green")))
+            #hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("red" "green" "blue" "red" "green")))
+            #hasheq((cards . ())
+                    (score . 0)
+                    (wallet . ("white" "yellow" "red" "blue" "blue")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("white" "yellow" "red" "blue" "blue")))
+            #hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))))
+(*** expected)
+'((("goodie0") ()))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/10/Tests7/3-in.json /home/camoy/24SwDev/Code/10/Tests7/3-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("nonWin" "purchase-size")
+   ("goodie0" "purchase-size")
+   ("goodie1" "purchase-size")
+   ("goodie2" "purchase-size")
+   ("goodie3" "purchase-size")
+   ("goodie4" "purchase-size"))
+  ()
+  ((("green" "green" "blue") ("red" "white")))
+  #hasheq((bank . ("green" "green" "green"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((cards . ())
+                    (score . 8)
+                    (wallet . ("green" "green" "blue")))
+            #hasheq((cards . ())
+                    (score . 5)
+                    (wallet . ("green" "green" "green")))
+            #hasheq((cards
+                     .
+                     (#hasheq((face? . #f)
+                              (pebbles
+                               .
+                               ("white" "green" "white" "green" "white")))
+                      #hasheq((face? . #f)
+                              (pebbles
+                               .
+                               ("white" "green" "white" "green" "white")))))
+                    (score . 6)
+                    (wallet . ("red")))
+            #hasheq((cards . ()) (score . 7) (wallet . ("green")))
+            #hasheq((cards . ()) (score . 9) (wallet . ("red" "white")))
+            #hasheq((cards . ())
+                    (score . 4)
+                    (wallet
+                     .
+                     ("blue" "blue" "blue" "blue" "green" "green" "green")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))))
+(*** expected)
+'((("goodie3") ("nonWin")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/10/Tests7/4-in.json /home/camoy/24SwDev/Code/10/Tests7/4-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("invTTBadString" "purchase-size")
+   ("goodie0" "purchase-size")
+   ("goodie1" "purchase-size")
+   ("goodie2" "purchase-size")
+   ("goodie3" "purchase-size")
+   ("goodie4" "purchase-size"))
+  ()
+  ((("green" "green" "blue") ("red" "white")))
+  #hasheq((bank . ("green" "green" "green"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((cards . ())
+                    (score . 8)
+                    (wallet . ("green" "green" "blue")))
+            #hasheq((cards . ())
+                    (score . 5)
+                    (wallet . ("green" "green" "green")))
+            #hasheq((cards
+                     .
+                     (#hasheq((face? . #f)
+                              (pebbles
+                               .
+                               ("white" "green" "white" "green" "white")))
+                      #hasheq((face? . #f)
+                              (pebbles
+                               .
+                               ("white" "green" "white" "green" "white")))))
+                    (score . 6)
+                    (wallet . ("red")))
+            #hasheq((cards . ()) (score . 7) (wallet . ("green")))
+            #hasheq((cards . ()) (score . 9) (wallet . ("red" "white")))
+            #hasheq((cards . ())
+                    (score . 4)
+                    (wallet
+                     .
+                     ("blue" "blue" "blue" "blue" "green" "green" "green")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))))
+(*** expected)
+'((("goodie3") ("invTTBadString")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/10/Tests7/5-in.json /home/camoy/24SwDev/Code/10/Tests7/5-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("illTT" "purchase-size")
+   ("goodie0" "purchase-size")
+   ("goodie1" "purchase-size")
+   ("goodie2" "purchase-size")
+   ("goodie3" "purchase-size")
+   ("goodie4" "purchase-size"))
+  ()
+  ((("green" "green" "blue") ("red" "white")))
+  #hasheq((bank . ("green" "green" "green"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((cards . ())
+                    (score . 8)
+                    (wallet . ("green" "green" "blue")))
+            #hasheq((cards . ())
+                    (score . 5)
+                    (wallet . ("green" "green" "green")))
+            #hasheq((cards
+                     .
+                     (#hasheq((face? . #f)
+                              (pebbles
+                               .
+                               ("white" "green" "white" "green" "white")))
+                      #hasheq((face? . #f)
+                              (pebbles
+                               .
+                               ("white" "green" "white" "green" "white")))))
+                    (score . 6)
+                    (wallet . ("red")))
+            #hasheq((cards . ()) (score . 7) (wallet . ("green")))
+            #hasheq((cards . ()) (score . 9) (wallet . ("red" "white")))
+            #hasheq((cards . ())
+                    (score . 4)
+                    (wallet
+                     .
+                     ("blue" "blue" "blue" "blue" "green" "green" "green")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))))
+(*** expected)
+'((("goodie3") ("illTT")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+(testing /home/camoy/24SwDev/Code/10/Tests7/6-in.json /home/camoy/24SwDev/Code/10/Tests7/6-out.json)
+---------------------------------
+(*** score 0)
+(*** on)
+'((("nonSetup" "purchase-size")
+   ("goodie0" "purchase-size")
+   ("goodie1" "purchase-size")
+   ("goodie2" "purchase-size")
+   ("goodie3" "purchase-size")
+   ("goodie4" "purchase-size"))
+  ()
+  ((("green" "green" "blue") ("red" "white")))
+  #hasheq((bank . ("green" "green" "green"))
+          (cards . ())
+          (players
+           .
+           (#hasheq((cards . ())
+                    (score . 8)
+                    (wallet . ("green" "green" "blue")))
+            #hasheq((cards . ())
+                    (score . 5)
+                    (wallet . ("green" "green" "green")))
+            #hasheq((cards
+                     .
+                     (#hasheq((face? . #f)
+                              (pebbles
+                               .
+                               ("white" "green" "white" "green" "white")))
+                      #hasheq((face? . #f)
+                              (pebbles
+                               .
+                               ("white" "green" "white" "green" "white")))))
+                    (score . 6)
+                    (wallet . ("red")))
+            #hasheq((cards . ()) (score . 7) (wallet . ("green")))
+            #hasheq((cards . ()) (score . 9) (wallet . ("red" "white")))
+            #hasheq((cards . ())
+                    (score . 4)
+                    (wallet
+                     .
+                     ("blue" "blue" "blue" "blue" "green" "green" "green")))))
+          (visibles
+           .
+           (#hasheq((face? . #f)
+                    (pebbles . ("green" "green" "green" "green" "green")))))))
+(*** expected)
+'((("goodie3") ("nonSetup")))
+(*** but received)
+'(((plain fast with-newline plain-unicode) ()))
+
+
+()
+((passed 0) (total 7) (partial-score 0))

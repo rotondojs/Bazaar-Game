@@ -1,0 +1,47 @@
+[["Ben","purchase-points","a cheat", "wallet-cannot-trade"],
+  ["Jordy","purchase-size","a cheat", "bank-cannot-trade"],
+  ["Matthias","purchase-size", "request-cards"],
+  ["BenLerner","purchase-size", "request-cards"]]
+[[["white"],["blue"]]]
+{
+  "bank":["red","blue","blue","blue","blue","blue","white","white","white","white","white"],
+  "players":[
+    {"score":0,"wallet":["blue","blue","blue","blue","white","white","white","white","white"]},
+    {"score":0,"wallet":["blue","blue","blue","blue","white","white","white","white","white"]},
+    {"score":0,"wallet":["blue","blue","blue","blue","white","white","white","white","white"]},
+    {"score":0,"wallet":["blue","blue","blue","blue","white","white","white","white","white"]}],
+  "visibles":[
+    {
+      "face?":false,"pebbles":["white","white","white","white","white"]
+    },
+    {
+      "face?":false,"pebbles":["blue","blue","blue","blue","blue"]
+    },
+    {
+      "face?":false,"pebbles":["white","white","white","white","white"]
+    },
+    {
+      "face?":false,"pebbles":["white","white","white","white","white"]
+    }
+  ],
+  "cards":[
+    {
+      "face?":false,"pebbles":["blue","blue","blue","blue","blue"]
+    },
+    {
+      "face?":false,"pebbles":["blue","blue","blue","blue","blue"]
+    },
+    {
+      "face?":false,"pebbles":["white","white","white","white","white"]
+    },
+    {
+      "face?":false,"pebbles":["blue","blue","blue","blue","blue"]
+    },
+    {
+      "face?":false,"pebbles":["white","white","white","white","white"]
+    },
+    {
+      "face?":false,"pebbles":["white","white","white","white","white"]
+    }
+  ]
+}

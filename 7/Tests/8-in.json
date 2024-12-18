@@ -1,0 +1,28 @@
+[
+    ["Charlie", "purchase-points", "win"],
+    ["Bob", "purchase-size", "request-pebble-or-trades"],
+    ["Alice", "purchase-points", "request-cards"],
+    ["Dan", "purchase-size", "setup"]
+]
+  
+[
+    [["red", "red", "white", "blue"], ["yellow"]]
+]
+  
+{
+    "bank": ["red", "red", "red", "red", "red", "blue", "blue", "green"],
+    "visibles": [
+        { "pebbles": ["red", "red", "red", "blue", "green"], "face?": true },
+        { "pebbles": ["red", "blue", "blue", "blue", "green"], "face?": false }
+    ],
+    "cards": [
+        { "pebbles": ["red", "yellow", "white", "blue", "green"], "face?": false },
+        { "pebbles": ["blue", "blue", "blue", "blue", "green"], "face?": true }
+    ],
+    "players": [
+        { "wallet": ["white", "yellow", "yellow"], "score": 1 },
+        { "wallet": ["white"], "score": 4 },
+        { "wallet": ["red", "blue"], "score": 2 },
+        { "wallet": ["red", "blue"], "score": 3 }
+    ]
+}

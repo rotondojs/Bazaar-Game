@@ -1,0 +1,3 @@
+[["Seth","purchase-points"],["Lilith","purchase-size", "a cheat", "wallet-cannot-buy-card"]]
+[[["green"], ["yellow", "yellow"]]]
+{"bank": ["red", "red", "red", "red", "red", "red"],"cards": [{"face?": true, "pebbles": ["green", "green", "yellow", "green", "green"]}],"players": [{"score": 10, "wallet": ["green", "green", "yellow", "green", "green"]},{"score": 12, "wallet": ["red", "red", "red", "red", "red"]}],"visibles": [{"face?": false, "pebbles": ["red", "red", "red", "red", "red"]}, {"face?": false, "pebbles": ["red", "green", "green", "green", "red"]}, {"face?": false, "pebbles": ["red", "red", "red", "red", "green"]}, {"face?": false, "pebbles": ["red", "red", "red", "green", "green"]}]}

@@ -1,0 +1,18 @@
+[["Katie", "purchase-points", "a cheat", "buy-unavailable-card"],
+  ["Maddy", "purchase-size", "setup"],
+  ["Betty", "purchase-points", "setup"]]
+[]
+{"bank": ["yellow", "blue", "blue", "white"],
+  "visibles": [
+    {"pebbles": ["green", "white", "white", "yellow", "white"], "face?": false},
+    {"pebbles": ["green", "red", "white", "blue", "blue"], "face?": true},
+    {"pebbles": ["yellow", "yellow", "white", "red", "yellow"], "face?": false},
+    {"pebbles": ["blue", "white", "blue", "red", "green"], "face?": false}],
+  "cards": [
+    {"pebbles": ["red", "white", "white", "white", "blue"], "face?": false},
+    {"pebbles": ["green", "blue", "green", "red", "red"], "face?": true},
+    {"pebbles": ["red", "green", "green", "red", "red"], "face?": false}],
+  "players": [
+    {"wallet": [], "score": 0},
+    {"wallet": [], "score": 0},
+    {"wallet": [], "score": 0}]}

@@ -1,0 +1,41 @@
+[
+    ["David", "purchase-size", "a cheat", "use-non-existent-equation"],
+    ["Crystal", "purchase-size", "request-cards"]
+]
+[
+    [
+        [
+            "red"
+        ],
+        [
+            "blue",
+            "blue",
+            "blue"
+        ]
+    ],
+    [
+        [
+            "green"
+        ],
+        [
+            "white",
+            "yellow"
+        ]
+    ]
+]
+{
+    "bank": [
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue"
+    ],
+    "visibles":[{"pebbles":["blue", "blue", "blue", "blue", "green"], "face?": false}, 
+                {"pebbles":["blue", "blue", "blue", "blue", "green"], "face?": false}, 
+                {"pebbles":["white", "white", "red", "blue", "red"], "face?": true}, 
+                {"pebbles":["red", "blue", "green", "green", "red"], "face?": false}],
+    "cards":[{"pebbles":["red", "red", "red", "white", "yellow"], "face?": true}, {"pebbles":["white", "white", "blue", "blue", "blue"], "face?": false}],
+    "players":[{"wallet": ["red", "blue", "green"], "score":12}, {"wallet": ["red", "blue", "green"], "score":12}]
+}

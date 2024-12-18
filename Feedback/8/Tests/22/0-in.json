@@ -1,0 +1,22 @@
+[["Jordy", "purchase-points", "a cheat", "wallet-cannot-buy-card"],["Ben", "purchase-points"]]
+[[["green"],["red"]],[["red"],["white","white"]], [["blue"],["yellow"]]]
+{
+  "bank": ["red","red","red","red","red"],
+  "visibles": [
+    {
+      "pebbles":["red", "blue", "green", "white", "yellow"],
+      "face?": true
+    }
+  ],
+  "cards": [],
+  "players": [
+    {
+      "wallet": ["white"],
+      "score": 0
+    },
+    {
+      "wallet": ["red", "blue", "green", "white", "yellow"],
+      "score": 0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Creating virtual environment...
+Installing dependencies...
+Collecting ijson
+  Using cached ijson-3.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (119 kB)
+Collecting pydantic
+  Using cached pydantic-2.9.2-py3-none-any.whl (434 kB)
+Collecting pygame
+  Using cached pygame-2.6.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.0 MB)
+Collecting annotated-types>=0.6.0
+  Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.23.4
+  Using cached pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+Collecting typing-extensions>=4.6.1
+  Using cached typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Installing collected packages: ijson, typing-extensions, pygame, annotated-types, pydantic-core, pydantic
+Successfully installed annotated-types-0.7.0 ijson-3.3.0 pydantic-2.9.2 pydantic-core-2.23.4 pygame-2.6.1 typing-extensions-4.12.2
+
+[notice] A new release of pip available: 22.3.1 -> 24.3.1
+[notice] To update, run: python3.11 -m pip install --upgrade pip

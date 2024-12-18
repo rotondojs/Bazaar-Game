@@ -1,0 +1,9 @@
+description,score,max
+code inspection,80,120
+server tests,0,245
+client tests,5,245
+bonus,0,0
+Bazaar/Planning/modifications.md exists,0,5
+xserver exists,5,5
+xclients exists,5,5
+total,95,625

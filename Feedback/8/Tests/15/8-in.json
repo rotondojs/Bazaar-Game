@@ -1,0 +1,3 @@
+[["Olivia","purchase-points","a cheat","wallet-cannot-buy-card"],["Veronica","purchase-size","a cheat","wallet-cannot-buy-card"],["Xena","purchase-size","request-cards"]]
+[]
+{"bank":["blue","blue","blue","blue","blue","green","green","green","green","green","red","red","blue","red","red","red","green","red","green"],"cards":[],"players":[{"score":5,"wallet":["blue","blue"]},{"score":19,"wallet":["yellow","blue"]},{"score":8,"wallet":["green","green","blue"]}],"visibles":[{"face?":false,"pebbles":["blue","blue","blue","blue","blue"]},{"face?":true,"pebbles":["blue","blue","blue","blue","red"]}]}

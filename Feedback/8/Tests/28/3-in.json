@@ -1,0 +1,11 @@
+[["player1", "purchase-size", "a cheat", "wallet-cannot-buy-card"],
+  ["player2", "purchase-size", "request-pebble-or-trades"]]
+[]
+{"bank": ["white", "red", "red"],
+  "visibles": [
+    {"pebbles" : ["red", "white", "blue", "blue", "blue"], "face?": true},
+    {"pebbles" : ["red", "green", "green", "green", "green"], "face?": true}],
+  "cards": [],
+  "players":[
+    {"wallet": ["red", "white", "blue", "blue", "blue", "green"], "score": 0},
+    {"wallet": ["red", "white", "blue", "blue", "blue", "green"], "score": 0}]}

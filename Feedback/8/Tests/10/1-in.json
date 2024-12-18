@@ -1,0 +1,21 @@
+[["Player1","purchase-size"],
+  ["PlayerWrongSetUp","purchase-size", "setup"],
+  ["PlayerWrongTrade","purchase-size", "request-pebble-or-trades"]]
+[
+  [["red"],["green", "yellow", "blue"]],
+  [["blue"],["red", "yellow"]],
+  [["blue", "green"],["red", "yellow"]]
+]
+{ "bank":["red", "blue", "green", "yellow", "red", "blue", "red", "green", "yellow", "white"],
+  "cards":[{"pebbles": ["red", "green", "red", "blue", "green"],"face?": true},
+    {"pebbles": ["red", "green", "red", "blue", "green"],"face?": true}],
+  "players":[
+    {"score":0,"wallet":["red", "blue", "yellow"]},
+    {"score":12,"wallet":["red", "blue", "yellow"]},
+    {"score":18,"wallet":["red", "blue", "yellow"]}],
+  "visibles":[
+    {"face?":false,"pebbles":["green","blue","red","red","green"]},
+    {"pebbles": ["red", "green", "red", "blue", "green"],"face?": true},
+    {"pebbles": ["blue", "yellow", "green", "green", "green"],"face?": false},
+    {"pebbles": ["blue", "white", "white", "green", "yellow"],"face?": true}]
+}

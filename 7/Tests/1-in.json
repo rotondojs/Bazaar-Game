@@ -1,0 +1,27 @@
+[
+    ["Alice", "purchase-points", "request-pebble-or-trades"]
+  ]
+  
+  [
+      [["red", "red", "white", "blue"], ["yellow"]],
+      [["red"], ["white"]],
+      [["green"], ["blue", "blue"]]
+  ]
+  
+  {
+      "bank": ["red", "red", "red", "red", "red", "blue", "blue", "green"],
+      "visibles": [
+        { "pebbles": ["red", "blue", "red", "blue", "green"], "face?": true },
+        { "pebbles": ["red", "blue", "blue", "green", "green"], "face?": false }
+      ],
+      "cards": [
+        { "pebbles": ["red", "yellow", "white", "blue", "green"], "face?": false },
+        { "pebbles": ["blue", "blue", "blue", "blue", "green"], "face?": true }
+      ],
+      "players": [
+        { "wallet": [], "score": 19 }
+      ]
+  }
+    
+  
+  

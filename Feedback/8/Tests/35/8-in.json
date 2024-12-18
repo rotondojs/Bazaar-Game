@@ -1,0 +1,41 @@
+[
+    ["a", "purchase-points", "a cheat", "wallet-cannot-buy-card"],
+    ["b", "purchase-points", "request-cards"],
+    ["c", "purchase-points"],
+    ["d", "purchase-size"]
+]
+[
+    [["red"], ["white"]]
+]
+{
+    "bank": [
+        "red", "red", "red", "red", "red", "red", "red", "red", "red", "red",
+        "white", "white", "white", "white", "white", "white", "white", "white",
+        "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue",
+        "green", "green", "green", "green", "green", "green", "green", "green",
+        "yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow"
+    ],
+    "visibles": [
+        {"pebbles": ["blue", "white", "white", "white", "green"], "face?": true},
+        {"pebbles": ["red", "blue", "white", "white", "yellow"], "face?": true},
+        {"pebbles": ["blue", "blue", "blue", "white", "white"], "face?": false},
+        {"pebbles": ["red", "yellow", "yellow", "yellow", "green"], "face?": false}
+    ],
+    "cards": [
+        {"pebbles": ["blue", "white", "white", "white", "green"], "face?": true},
+        {"pebbles": ["blue", "white", "white", "white", "white"], "face?": true},
+        {"pebbles": ["red", "blue", "white", "white", "yellow"], "face?": true},
+        {"pebbles": ["blue", "blue", "blue", "white", "white"], "face?": false},
+        {"pebbles": ["red", "white", "white", "white", "green"], "face?": false},
+        {"pebbles": ["blue", "white", "white", "white", "white"], "face?": true},
+        {"pebbles": ["red", "blue", "white", "white", "yellow"], "face?": true},
+        {"pebbles": ["blue", "blue", "blue", "white", "white"], "face?": false},
+        {"pebbles": ["red", "white", "white", "white", "green"], "face?": false}
+    ],
+    "players": [
+        {"wallet": [], "score": 0},
+        {"wallet": [], "score": 0},
+        {"wallet": [], "score": 0},
+        {"wallet": [], "score": 0}
+    ]
+}

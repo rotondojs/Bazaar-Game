@@ -1,0 +1,80 @@
+[
+    ["kobe", "purchase-points"],
+    ["eric", "purchase-size"]
+]
+
+[
+    [
+        ["white"],
+        ["blue"]
+    ], 
+    [
+        ["white"],
+        ["green"]
+    ],
+    [
+        ["blue", "blue", "blue", "blue"],
+        ["yellow"]
+    ],
+    [
+        ["blue", "blue", "blue"],
+        ["yellow"]
+    ],
+    [
+        ["blue"],
+        ["yellow", "yellow"]
+    ],
+    [
+        ["blue"],
+        ["yellow", "yellow", "yellow"]
+    ],
+    [
+        ["blue"],
+        ["yellow", "yellow", "yellow", "yellow"]
+    ],
+    [
+        ["green", "green"],
+        ["yellow", "yellow", "yellow"]
+    ],
+    [
+        ["green", "green", "green"],
+        ["yellow", "yellow", "yellow"]
+    ],
+    [
+        ["green", "green", "green"],
+        ["yellow", "yellow", "yellow", "yellow"]
+    ]
+]
+
+{ 
+    "bank" : ["red"],
+    "visibles" : [
+        {
+            "pebbles": ["red", "red", "red", "red", "red"],
+            "face?": true
+        },
+        {
+            "pebbles": ["blue", "blue", "blue", "blue", "blue"],
+            "face?": true
+        },
+        {
+            "pebbles": ["green", "green", "green", "green", "green"],
+            "face?": true
+        },
+        {
+            "pebbles": ["yellow", "yellow", "yellow", "yellow", "yellow"],
+            "face?": true
+        }
+    ],
+    "cards": [],
+    "players": [
+        {
+            "wallet": [],
+            "score": 0
+        },
+        {
+            "wallet": [],
+            "score": 0
+        }
+    ]
+}

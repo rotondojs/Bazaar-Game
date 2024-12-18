@@ -1,0 +1,23 @@
+[
+    ["a", "purchase-points", "a cheat", "bank-cannot-trade"]
+]
+[
+    [["red"], ["white"]]
+]
+{
+    "bank": [
+        "red", "red", "red", "red", "white"
+    ],
+    "visibles": [
+        {"pebbles": ["blue", "white", "white", "white", "green"], "face?": true},
+        {"pebbles": ["red", "blue", "white", "white", "yellow"], "face?": true},
+        {"pebbles": ["blue", "blue", "blue", "white", "white"], "face?": false},
+        {"pebbles": ["red", "white", "white", "white", "green"], "face?": false}
+    ],
+    "cards": [
+        {"pebbles": ["blue", "white", "white", "white", "green"], "face?": true}
+    ],
+    "players": [
+        {"wallet": ["red", "white", "white", "white", "green"], "score": 19}
+    ]
+}

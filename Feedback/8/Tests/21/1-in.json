@@ -1,0 +1,18 @@
+[["Player1","purchase-size"],
+  ["CheatFakeEquation","purchase-size", "a cheat", "use-non-existent-equation"]]
+[
+  [["red"],["green", "yellow", "blue"]],
+  [["blue"],["red", "yellow"]],
+  [["blue", "green"],["red", "yellow"]]
+]
+{ "bank":["red", "blue", "green", "yellow", "red", "blue", "red", "green", "yellow", "white"],
+  "cards": [{"face?":false,"pebbles":["green","blue","red","red","green"]}],
+  "players":[
+    {"score":0,"wallet":["red", "blue", "yellow"]},
+    {"score":0,"wallet":["red", "blue", "yellow"]}],
+  "visibles":[
+    {"face?":false,"pebbles":["green","blue","red","red","green"]},
+    {"pebbles": ["red", "green", "red", "blue", "green"],"face?": true},
+    {"pebbles": ["blue", "yellow", "green", "green", "green"],"face?": false},
+    {"pebbles": ["blue", "white", "white", "green", "yellow"],"face?": true}]
+}

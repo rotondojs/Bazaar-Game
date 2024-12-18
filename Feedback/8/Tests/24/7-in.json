@@ -1,0 +1,30 @@
+[
+  ["winner1", "purchase-points"],
+  ["winner2", "purchase-size"],
+  ["loser", "purchase-points"]
+]
+[[["blue"], ["red", "red"]]]
+{
+  "bank": [],
+  "visibles": [
+    {
+      "pebbles": ["red","red","red","red","red"],
+      "face?": true
+    }
+  ],
+  "cards": [],
+  "players": [
+    {
+      "wallet": ["blue","blue"],
+      "score": 17
+    },
+    {
+      "wallet": ["red"],
+      "score": 17
+    },
+    {
+      "wallet": ["green", "white"],
+      "score": 16
+    }
+  ]
+}

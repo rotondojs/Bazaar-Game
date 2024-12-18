@@ -1,0 +1,5 @@
+Extra or missing files in tests directory
+(testing /home/camoy/24SwDev/Code/8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/amazing-squirrels/./8/Tests-0/0-in.json /course/cs4500f24/tas/camoy/repos/amazing-squirrels/./8/Tests-0/0-out.json)
+((/course/cs4500f24/tas/camoy/repos/amazing-squirrels/./8/Tests-0/0-in.json /course/cs4500f24/tas/camoy/repos/amazing-squirrels/./8/Tests-0/0-out.json))
+((passed 1) (total 1) (partial-score 1))

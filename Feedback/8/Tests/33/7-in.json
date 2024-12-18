@@ -1,0 +1,48 @@
+[
+    ["bobbyp1", "purchase-size", "a cheat", "wallet-cannot-trade"],
+    ["jermp2", "purchase-points", "setup"],
+    ["dollyp3", "purchase-size", "a cheat", "bank-cannot-trade"],
+    ["normp4", "purchase-points", "request-pebble-or-trades"],
+    ["willp5", "purchase-size"],
+    ["rosep6", "purchase-points", "win"]
+]
+[
+    [["white"], ["blue", "green", "yellow"]],
+    [["red"], ["green", "white", "blue"]],
+    [["blue"], ["red", "yellow", "yellow"]],
+    [["green"], ["red", "blue", "white"]],
+    [["yellow"], ["blue", "blue", "red"]]
+]
+{
+    "bank": [
+        "blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow"
+    ],
+    "visibles": [
+        {"face?": true, "pebbles": ["blue", "green", "white", "blue", "green"]},
+        {"face?": true, "pebbles": ["yellow", "red", "red", "white", "white"]},
+        {"face?": false, "pebbles": ["green", "green", "green", "green", "green"]},
+        {"face?": false, "pebbles": ["blue", "blue", "blue", "red", "red"]}
+    ],
+    "cards": [
+        {"face?": true, "pebbles": ["blue", "green", "white", "blue", "green"]},
+        {"face?": true, "pebbles": ["yellow", "red", "red", "white", "white"]},
+        {"face?": false, "pebbles": ["green", "green", "green", "green", "green"]},
+        {"face?": false, "pebbles": ["blue", "blue", "blue", "red", "red"]},
+        {"face?": true, "pebbles": ["blue", "green", "white", "blue", "green"]},
+        {"face?": true, "pebbles": ["yellow", "red", "red", "white", "white"]},
+        {"face?": false, "pebbles": ["green", "green", "green", "green", "green"]},
+        {"face?": false, "pebbles": ["blue", "blue", "blue", "red", "red"]},
+        {"face?": true, "pebbles": ["blue", "green", "white", "blue", "green"]},
+        {"face?": true, "pebbles": ["yellow", "red", "red", "white", "white"]},
+        {"face?": false, "pebbles": ["green", "green", "green", "green", "green"]},
+        {"face?": false, "pebbles": ["blue", "blue", "blue", "red", "red"]}
+    ],
+    "players": [
+        {"score": 0, "wallet": ["red"]},
+        {"score": 20, "wallet": ["blue", "blue", "green", "green", "red", "red", "white", "white", "yellow", "yellow"]},
+        {"score": 1, "wallet": ["yellow"]},
+        {"score": 0, "wallet": ["blue"]},
+        {"score": 0, "wallet": ["red"]},
+        {"score": 0, "wallet": ["red"]}
+    ]
+}

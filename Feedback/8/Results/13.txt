@@ -1,0 +1,564 @@
+(testing /course/cs4500f24/tas/camoy/repos/amazing-squirrels/./8/xgames-blogic)
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/0-out.json)
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/8/Other/xgames-blogic.py", line 234, in <module>
+---------------------------------
+(*** score 0)
+(*** on)
+'((("firstPlayer" "purchase-points")
+   ("secondPlayer" "purchase-size")
+   ("thirdPlayer" "purchase-points" "a cheat" "use-non-existent-equation"))
+  ((("red" "blue" "blue" "blue") ("green")) (("red") ("blue")))
+  #hasheq((bank . ("red" "blue"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))
+          (players
+           .
+           (#hasheq((score . 0) (wallet . ("red" "blue" "blue" "white" "red")))
+            #hasheq((score . 5)
+                    (wallet . ("red" "white" "blue" "white" "red")))
+            #hasheq((score . 5)
+                    (wallet . ("red" "red" "blue" "white" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))))
+(*** expected)
+'(("secondPlayer") ("thirdPlayer"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)\\nHello from the pygame community. https://www.pygame.org/contribute.html\\npebbles={<Color.RED: 'red'>: 2, <Color.BLUE: 'blue'>: 2, <Color.WHITE: 'white'>: 1} pebbles={<Color.RED: 'red'>: 1}pebbles={<Color.BLUE:...")))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/1-out.json)
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/8/Other/xgames-blogic.py", line 234, in <module>
+    main()
+---------------------------------
+(*** score 0)
+(*** on)
+'((("firstPlayer" "purchase-points" "setup")
+   ("secondPlayer" "purchase-size" "setup")
+   ("thirdPlayer" "purchase-size" "a cheat" "bank-cannot-trade"))
+  ((("red" "blue" "blue" "blue") ("green")) (("red") ("blue")))
+  #hasheq((bank . ("red" "blue"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))))
+          (players
+           .
+           (#hasheq((score . 0) (wallet . ("red" "blue" "blue" "white" "red")))
+            #hasheq((score
+                     .
+                     9999999999999999988935498273598701004597577818920492838394)
+                    (wallet . ("red" "red" "blue" "white" "red")))
+            #hasheq((score . 0)
+                    (wallet . ("red" "yellow" "blue" "white" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))))
+(*** expected)
+'(() ("firstPlayer" "secondPlayer" "thirdPlayer"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)\\nHello from the pygame community. https://www.pygame.org/contribute.html\\n\"")))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/2-out.json)
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/8/Other/xgames-blogic.py", line 234, in <module>
+    main()
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/8/Other/xgames-blogic.py", line 228, in main
+---------------------------------
+(*** score 0)
+(*** on)
+'((("firstPlayer" "purchase-points")
+   ("secondPlayer" "purchase-size" "setup")
+   ("thirdPlayer" "purchase-size" "a cheat" "wallet-cannot-trade"))
+  ((("red" "blue" "blue" "blue") ("green")) (("red") ("blue")))
+  #hasheq((bank . ("red" "blue"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))))
+          (players
+           .
+           (#hasheq((score . 0) (wallet . ("red" "blue" "blue" "white" "red")))
+            #hasheq((score
+                     .
+                     9999999999999999988935498273598701004597577818920492838394)
+                    (wallet . ("red" "red" "blue" "white" "red")))
+            #hasheq((score . 0)
+                    (wallet . ("red" "yellow" "blue" "white" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))))
+(*** expected)
+'(("firstPlayer") ("secondPlayer" "thirdPlayer"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)\\nHello from the pygame community. https://www.pygame.org/contribute.html\\n\"")))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/3-out.json)
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/8/Other/xgames-blogic.py", line 234, in <module>
+    main()
+---------------------------------
+(*** score 0)
+(*** on)
+'((("firstPlayer" "purchase-points" "win")
+   ("secondPlayer" "purchase-size" "win")
+   ("thirdPlayer" "purchase-size" "a cheat" "buy-unavailable-card"))
+  ((("red" "blue" "blue" "blue") ("green")) (("red") ("blue")))
+  #hasheq((bank . ("red" "blue"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))
+            #hasheq((face? . #f)
+                    (pebbles . ("red" "yellow" "red" "white" "red")))))
+          (players
+           .
+           (#hasheq((score . 0) (wallet . ("red" "blue" "blue" "white" "red")))
+            #hasheq((score . 5) (wallet . ("red" "red" "blue" "white" "red")))
+            #hasheq((score . 0)
+                    (wallet . ("red" "blue" "blue" "white" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))))
+(*** expected)
+'(() ("firstPlayer" "secondPlayer" "thirdPlayer"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)\\nHello from the pygame community. https://www.pygame.org/contribute.html\\npebbles={<Color.RED: 'red'>: 2, <Color.BLUE: 'blue'>: 2, <Color.WHITE: 'white'>: 1} pebbles={<Color.RED: 'red'>: 1}pebbles={<Color.BLUE:...")))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/6-out.json)
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/8/Other/xgames-blogic.py", line 234, in <module>
+---------------------------------
+(*** score 0)
+(*** on)
+'((("firstPlayer" "purchase-points" "a cheat" "bank-cannot-trade")
+   ("secondPlayer" "purchase-size" "a cheat" "bank-cannot-trade"))
+  ((("red") ("blue")))
+  #hasheq((bank
+           .
+           ("red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "red"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"
+            "blue"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "white" "white" "red")))))
+          (players
+           .
+           (#hasheq((score . 0) (wallet . ("red" "blue" "blue" "white" "red")))
+            #hasheq((score . 15)
+                    (wallet . ("red" "red" "blue" "white" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))))
+(*** expected)
+'(("secondPlayer") ())
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)\\nHello from the pygame community. https://www.pygame.org/contribute.html\\n\"")))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/7-out.json)
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/Bazaar/Common/rule_book.py", line 287, in _apply_purchase
+---------------------------------
+(*** score 0)
+(*** on)
+'((("firstPlayer" "purchase-points"))
+  ((("red" "blue" "blue" "blue") ("green")) (("red") ("blue")))
+  #hasheq((bank . ("red" "blue"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))))
+          (players
+           .
+           (#hasheq((score . 0)
+                    (wallet . ("red" "white" "blue" "white" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))))
+(*** expected)
+'(("firstPlayer") ())
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)\\nHello from the pygame community. https://www.pygame.org/contribute.html\\npebbles={<Color.RED: 'red'>: 2, <Color.WHITE: 'white'>: 2, <Color.BLUE: 'blue'>: 1} pebbles={<Color.RED: 'red'>: 1}pebbles={<Color.BLUE:...")))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/8-out.json)
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/8/Other/xgames-blogic.py", line 234, in <module>
+---------------------------------
+(*** score 0)
+(*** on)
+'((("firstPlayer" "purchase-points")
+   ("secondPlayer" "purchase-size" "request-cards")
+   ("thirdPlayer" "purchase-size" "a cheat" "wallet-cannot-trade"))
+  ((("red" "blue" "blue" "blue") ("green")) (("red") ("blue")))
+  #hasheq((bank . ("red" "blue"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))))
+          (players
+           .
+           (#hasheq((score . 19)
+                    (wallet . ("red" "blue" "blue" "white" "red")))
+            #hasheq((score . 19) (wallet . ("red" "red" "blue" "white" "red")))
+            #hasheq((score . 18)
+                    (wallet . ("red" "red" "blue" "white" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))))
+(*** expected)
+'(("firstPlayer") ())
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)\\nHello from the pygame community. https://www.pygame.org/contribute.html\\npebbles={<Color.RED: 'red'>: 2, <Color.BLUE: 'blue'>: 2, <Color.WHITE: 'white'>: 1} pebbles={<Color.RED: 'red'>: 1}pebbles={<Color.BLUE:...")))
+
+
+(testing /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-in.json /course/cs4500f24/tas/camoy/repos/8/???/Tests/9-out.json)
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+ALSA lib confmisc.c:855:(parse_card) cannot find card '0'
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_card_inum returned error: No such file or directory
+ALSA lib confmisc.c:422:(snd_func_concat) error evaluating strings
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_concat returned error: No such file or directory
+ALSA lib confmisc.c:1342:(snd_func_refer) error evaluating name
+ALSA lib conf.c:5204:(_snd_config_evaluate) function snd_func_refer returned error: No such file or directory
+ALSA lib conf.c:5727:(snd_config_expand) Evaluate error: No such file or directory
+ALSA lib pcm.c:2675:(snd_pcm_open_noupdate) Unknown PCM default
+Traceback (most recent call last):
+  File "/course/cs4500f24/tas/camoy/repos/amazing-squirrels/8/Other/xgames-blogic.py", line 234, in <module>
+---------------------------------
+(*** score 0)
+(*** on)
+'((("firstPlayer" "purchase-points")
+   ("secondPlayer" "purchase-size")
+   ("thirdPlayer" "purchase-points")
+   ("fourthPlayer" "purchase-points")
+   ("fifthPlayer" "purchase-points" "win")
+   ("sixthPlayer" "purchase-points" "a cheat" "buy-unavailable-card"))
+  ((("red" "blue" "blue" "blue") ("green")) (("red") ("blue")))
+  #hasheq((bank . ("red" "blue"))
+          (cards
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "red" "blue" "white" "red")))))
+          (players
+           .
+           (#hasheq((score . 0) (wallet . ()))
+            #hasheq((score . 2) (wallet . ()))
+            #hasheq((score . 2) (wallet . ()))
+            #hasheq((score . 4) (wallet . ()))
+            #hasheq((score . 19) (wallet . ("red" "red" "blue" "white" "red")))
+            #hasheq((score . 19)
+                    (wallet . ("red" "blue" "blue" "white" "red")))))
+          (visibles
+           .
+           (#hasheq((face? . #t)
+                    (pebbles . ("red" "blue" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "white" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "green" "blue" "white" "red")))
+            #hasheq((face? . #t)
+                    (pebbles . ("red" "yellow" "blue" "white" "red")))))))
+(*** expected)
+'(() ("fifthPlayer" "sixthPlayer"))
+(*** but received)
+'(((plain fast with-newline plain-unicode)
+   ("ERROR subprocess-stdout::1: read-json: bad input starting #\"pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)\\nHello from the pygame community. https://www.pygame.org/contribute.html\\n\"")))
+
+
+()
+((passed 0) (total 8) (partial-score 0))

@@ -1,0 +1,342 @@
+[
+    [
+        "Normal",
+        "purchase-size"
+    ],
+    [
+        "Cheater",
+        "purchase-points",
+        "a cheat",
+        "wallet-cannot-buy-card"
+    ]
+]
+  [
+    [
+        [
+            "blue",
+            "green",
+            "green",
+            "white"
+        ],
+        [
+            "red",
+            "red"
+        ]
+    ],
+    [
+        [
+            "yellow"
+        ],
+        [
+            "green",
+            "white"
+        ]
+    ],
+    [
+        [
+            "blue"
+        ],
+        [
+            "red"
+        ]
+    ],
+    [
+        [
+            "red",
+            "blue",
+            "green"
+        ],
+        [
+            "yellow",
+            "yellow",
+            "white"
+        ]
+    ],
+    [
+        [
+            "red"
+        ],
+        [
+            "green"
+        ]
+    ],
+    [
+        [
+            "blue",
+            "blue"
+        ],
+        [
+            "yellow"
+        ]
+    ],
+    [
+        [
+            "blue",
+            "blue",
+            "green"
+        ],
+        [
+            "red",
+            "white"
+        ]
+    ],
+    [
+        [
+            "green"
+        ],
+        [
+            "red",
+            "white"
+        ]
+    ],
+    [
+        [
+            "red",
+            "blue",
+            "green"
+        ],
+        [
+            "yellow"
+        ]
+    ],
+    [
+        [
+            "red",
+            "green",
+            "white"
+        ],
+        [
+            "yellow",
+            "yellow"
+        ]
+    ]
+]
+  {
+    "bank": [
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "white"
+    ],
+    "visibles": [
+        {
+            "pebbles": [
+                "blue",
+                "blue",
+                "blue",
+                "blue",
+                "blue"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "blue",
+                "blue",
+                "blue",
+                "blue",
+                "blue"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "blue",
+                "blue",
+                "blue",
+                "blue",
+                "blue"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "red",
+                "red",
+                "red",
+                "red",
+                "red"
+            ],
+            "face?": false
+        }
+    ],
+    "cards": [
+        {
+            "pebbles": [
+                "red",
+                "blue",
+                "blue",
+                "blue",
+                "green"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "red",
+                "red",
+                "blue",
+                "blue",
+                "blue"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "red",
+                "red",
+                "red",
+                "green",
+                "green"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "red",
+                "red",
+                "green",
+                "yellow",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "blue",
+                "blue",
+                "blue",
+                "yellow",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "blue",
+                "blue",
+                "green",
+                "green",
+                "white"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "red",
+                "blue",
+                "green",
+                "green",
+                "green"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "green",
+                "green",
+                "green",
+                "green",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "red",
+                "blue",
+                "blue",
+                "white",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "red",
+                "red",
+                "blue",
+                "blue",
+                "green"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "red",
+                "blue",
+                "green",
+                "yellow",
+                "white"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "red",
+                "green",
+                "green",
+                "yellow",
+                "white"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "red",
+                "blue",
+                "blue",
+                "white",
+                "white"
+            ],
+            "face?": false
+        },
+        {
+            "pebbles": [
+                "blue",
+                "blue",
+                "green",
+                "yellow",
+                "white"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "red",
+                "red",
+                "green",
+                "green",
+                "green"
+            ],
+            "face?": true
+        },
+        {
+            "pebbles": [
+                "red",
+                "blue",
+                "blue",
+                "white",
+                "white"
+            ],
+            "face?": false
+        }
+    ],
+    "players": [
+        {
+            "wallet": [
+                "blue",
+                "blue",
+                "blue",
+                "blue",
+                "blue"
+            ],
+            "score": 19
+        },
+        {
+            "wallet": [],
+            "score": 0
+        }
+    ]
+}

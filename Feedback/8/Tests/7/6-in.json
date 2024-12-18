@@ -1,0 +1,33 @@
+[
+    ["setup", "purchase-size", "setup"],
+    ["new", "purchase-points", "setup"],
+    ["e75o8ZZaaaaaaaaaaaaa", "purchase-size", "request-pebble-or-trades"],
+    ["class", "purchase-size", "request-cards"],
+    ["import", "purchase-size", "win"],
+    ["L", "purchase-size"]
+]
+[
+    [["red"], ["white"]],
+    [["red"], ["blue"]],
+    [["green"], ["yellow"]]
+]
+{
+    "bank": ["red","red", "red", "red", "red", "green", "green", "green", "green", "green", "blue", "blue", "blue", "blue", "blue", "white", "white", "white", "white", "white", "yellow", "yellow", "yellow", "yellow", "yellow"],
+    "visibles": [
+        { "pebbles" : ["red","red","red","red","red"], "face?": true },
+        { "pebbles" : ["blue","blue","blue","blue","blue"], "face?": true },
+        { "pebbles" : ["red","blue","white","yellow","green"], "face?": false },
+        { "pebbles" : ["red","red","red","red","yellow"], "face?": false }],
+    "cards" : [
+    { "pebbles" : ["red","green","white","white","white"], "face?": false },
+    { "pebbles" : ["red","green","white","white","white"], "face?": true },
+    { "pebbles" : ["white","white","green","red","white"], "face?": false },
+    { "pebbles" : ["blue","blue","blue","blue","yellow"], "face?": false }],
+    "players": [
+        {"wallet" : ["blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue", "blue"], "score": 0},
+        {"wallet" : ["yellow", "yellow", "yellow", "yellow", "yellow", "yellow","yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow", "yellow"], "score": 19},
+        {"wallet" : ["red", "blue", "green"], "score": 19},
+        {"wallet" : ["red", "red", "red", "red", "red"], "score": 19},
+        {"wallet" : ["red", "red", "red", "red", "red", "red", "white", "white", "white", "white"], "score": 19},
+        {"wallet" : [], "score": 11}]
+}
